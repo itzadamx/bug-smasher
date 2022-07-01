@@ -1,0 +1,150 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+ }
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed, 
+ figure, figcaption, footer, header, hgroup, 
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+ }
+ 
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure, 
+ footer, header, hgroup, menu, nav, section {
+    display: block;
+ } 
+body {
+    background: linear-gradient( -25deg, #968bf4, #b48ef1, #b265e6, #f1ccff, #ffffff);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+#game{
+    margin-left: 450px;
+}
+#scoreCtrlButton, #speedCtrlButton {
+    font-family: tangerine, cursive;
+    font-size: 25px;
+    background: linear-gradient(to bottom right, #ffffff 0%, #e9b2af 50%, #e6ccff 75%, #e0b3ff 100%);
+    color: black;
+    border: 2px solid black;
+    width: 10em;
+    text-shadow: 10px 0px 17px white, -10px 0px 17px white;
+    height: 40px;
+}
+
+#scoreCtrlButton{
+    float:right;
+}
+
+#speedCtrlButton{
+    float:left;
+    margin-left:20px;
+}
+
+#totalScore {
+    font-weight: bold;
+    font-size: 36px;
+    color: #5a4099;
+    text-shadow: 10px 0px 17px white, -10px 0px 17px black;
+    padding-top: 30px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 70px;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 4.7em;
+    color: rgb(126,20,23);
+    padding-left: 250px;
+    font-family: Freestyle Script;
+    text-shadow: 10px 0px 17px white, -10px 0px 17px purple;
+    padding-left: 250px;
+    text-align: center;
+}
+#row{
+    width:100px;
+}
+#data {
+    width:200px;
+}
+
+header {
+    background-image:url('images/buglabel.jpg');
+    background-repeat: no-repeat;
+    color: rgb(126,20,23);
+    font-size: 4.7em;
+    font-family: Freestyle Script;
+    height:200px;
+    width: 980px;
+    text-align:center;
+    padding-top: 50px;
+    padding-left:70px;
+    padding-bottom: 50px;
+    border: medium solid red;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px  rgb(211, 209, 209);
+   margin-left: 450px;
+}
+footer {
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+    clear: both;
+    background: black;
+    color: rgb(227,198,32);
+ }
+ 
+ footer p {
+    text-align: center;
+    margin-left: 300px;
+ }
+ li {
+    display:inline;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 150px;
+  }
+  ul{
+    margin-left: 550px;
+ }
+a:link {
+    color: red;
+    background-color:transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color:white;
+    background-color: transparent;
+    text-decoration:none;
+  }
+  
+  a:hover {
+    color:purple;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(0, 255, 34);
+    background-color: transparent;
+    text-decoration: underline;
+  }
